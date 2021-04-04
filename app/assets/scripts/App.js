@@ -1,1 +1,1 @@
-alert('Hiya, foobar peeps!')
+import '../styles/styles.css'
