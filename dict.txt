@@ -48,6 +48,9 @@ object
 original
 page-section
 page-section--blue
+page-section--no-padding-until-medium
+page-section--no-padding-until-large
+page-section--testimonials
 paragraph
 placeholder
 product
@@ -63,7 +66,15 @@ row__medium
 row__medium-4--larger
 row__medium-6
 row__medium-8--smaller
+row__large
+row__large-4--larger
+row__large-6
+row__large-8--smaller
+row--equal-height-at-medium
+row--equal-height-at-large
 row--gutters
+row--gutters-small
+row--t-padding
 section-title
 section-title__icon
 sentence
@@ -73,6 +84,11 @@ size
 source
 subject
 target
+testimonial
+testimonial--last
+testimonial__photo
+testimonial__subtitle
+testimonial__title
 text-center
 thumbnail
 update
@@ -82,4 +98,5 @@ validate
 validation
 wrapper
 wrapper--medium
+wrapper--no-padding-until-large
 wrapper-b-margin
