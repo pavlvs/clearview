@@ -53,6 +53,8 @@ page-section--no-padding-until-large
 page-section--testimonials
 paragraph
 placeholder
+primary-nav
+primary-nav--pull-right
 product
 project
 protected
@@ -81,6 +83,10 @@ sentence
 site-footer
 site-footer__text
 site-header
+site-header__btn-container
+site-header__logo
+site-header__menu-content
+site-header__menu-icon
 size
 source
 subject
