@@ -79,6 +79,7 @@ section-title
 section-title__icon
 sentence
 site-footer
+site-footer__text
 site-header
 size
 source
