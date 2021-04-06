@@ -1,18 +1,12 @@
 class Modal {
     constructor() {
         this.injectHTML()
-        this.openModalButtons = document.querySelectorAll('.open-modal')
         this.closeIcon = document.querySelector('.modal__close')
         this.modal = document.querySelector('.modal')
         this.events()
     }
 
     events() {
-        // listen for open modal button click
-        this.openModalButtons.forEach((btn) => {
-            btn.addEventListener('click', (e) => this.openModal(e))
-        })
-
         // listen close modal button click
         this.closeIcon.addEventListener('click', () => this.closeModal())
 
@@ -47,8 +41,7 @@ class Modal {
         document.body.insertAdjacentHTML('beforeend', modalHTML)
     }
 
-    openModal(e) {
-        e.preventDefault()
+    openModal() {
         this.modal.classList.add('modal--is-visible')
     }
 
