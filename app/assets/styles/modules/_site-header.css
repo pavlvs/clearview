@@ -64,7 +64,7 @@
             transition: transform 0.3s ease-out;
         }
 
-        &__middle {
+        &--middle {
             height: 3px;
             position: absolute;
             top: 8px;
