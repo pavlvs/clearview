@@ -28,6 +28,7 @@ footer
 functions
 generic-content-container
 header
+header__menu-icon--close-x
 headline
 headline--centered
 headline--light
@@ -43,7 +44,9 @@ large-hero__description
 large-hero__image
 large-hero__subtitle
 large-hero__title
+menuIcon
 message
+MobileMenu
 object
 original
 page-section
