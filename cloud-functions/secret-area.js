@@ -1,6 +1,5 @@
 exports.handler = function (event, context, callback) {
-
-    cons secretContent = /*html*/`
+    const secretContent = /*html*/ `
     <h3>Welcome To The Secret Area</h3>
     <p>Here we can tell you that the sky is <strong>blue</strong> and 2 + 2 = 4</p>
     `
@@ -14,14 +13,11 @@ exports.handler = function (event, context, callback) {
     if (body.password == 'javascript') {
         callback(null, {
             statusCode: 200,
-            body: secretContent
+            body: secretContent,
         })
-    }else {
+    } else {
         callback(null, {
-            statusCode: 401
-
+            statusCode: 401,
         })
     }
-
-
 }
